@@ -23,7 +23,7 @@ public class SubjectList {
     public List<SubjectData> getSubjects() {
         return subjects != null ? subjects : List.of();
     }
-
+ 
     public List<String> getTeacherNames() {
         return teacherNames != null ? teacherNames : List.of();
     }
